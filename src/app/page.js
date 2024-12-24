@@ -9,7 +9,6 @@ export default async function Home() {
   const currentWeather = posts?.current;
   const location = posts?.location;
   const forecast = posts?.forecast.forecastday;
-  console.log(posts);
   return (
     <div className="w-full">
       <div className="container mx-auto text-white">
